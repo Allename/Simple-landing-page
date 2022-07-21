@@ -10,11 +10,17 @@
   justify-content: space-between;
   align-items: center;
   padding: 1.2rem 1rem;
+  height: 10vh;
+  border-bottom: 1px solid rgb(252, 236, 235);
 }
 
 .left > h1 {
   font-size: 1em;
   color: rgb(156, 157, 161);
+}
+
+.nav-bar {
+  margin-left: 10rem;
 }
 
 .nav-bar > ul > li{
@@ -38,7 +44,26 @@
   color: rgb(255, 255, 255);
 }
 
+.btn-3 {
+  padding: 1rem 2rem;
+  background-color: rgb(36, 46, 76);
+  color: rgb(255, 255, 255);
+}
+
 .btn:hover,
 .btn-2:hover {
   opacity: 0.8;
+}
+
+
+/* Middle Section */
+.description {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(252, 236, 235);
+}
+
+.content {
+  padding: 2rem;
+  width: 60%;
 }
