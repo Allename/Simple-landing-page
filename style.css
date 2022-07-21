@@ -29,9 +29,16 @@
   background-color: rgb(252, 236, 235);
   border: none;
   border-radius: 0.4rem;
+  cursor: pointer;
+  transition: opacity 0.2s ease-in-out;
 }
 
 .btn-2 {
   background-color: rgb(36, 46, 76);
   color: rgb(255, 255, 255);
+}
+
+.btn:hover,
+.btn-2:hover {
+  opacity: 0.8;
 }
