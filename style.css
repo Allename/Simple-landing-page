@@ -162,3 +162,24 @@ body {
   padding: 0.1rem 0;
   color: rgb(36, 46, 76);
 }
+
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+
+
+  .interlude{
+    margin: 0;
+    padding: 0.2rem;
+  }
+  .grid-display {
+    grid-template-columns: 1fr;
+  }
+
+  .display {
+    padding: 1rem 0;
+  }
+  .date {
+    font-size: 0.8em;
+  }
+}
