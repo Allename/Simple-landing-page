@@ -183,6 +183,11 @@ body {
     margin: 0;
     padding: 0.2rem;
   }
+  .btn-2:hover,
+  .btn-3:hover {
+    opacity: none;
+  }
+  
   .grid-display {
     grid-template-columns: 1fr;
     padding: 0.3rem 0.7rem;
