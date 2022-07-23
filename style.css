@@ -103,6 +103,10 @@ body {
   justify-content: center;
 }
 
+.interlude {
+  padding: 2rem;
+}
+
 .marque {
   display: flex;
   justify-content: center;
@@ -123,9 +127,30 @@ body {
 .grid-display {
   margin: 0 auto;
   padding: 2rem;
-  width: 65rem;
+  max-width: 70rem;
   display: grid;
-  grid-template-columns: repeat(4, 20rem);
-  border: 1px solid black;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: repeat(4, 14rem);
+  gap: 1rem;
 }
 
+.display {
+  width: 100%;
+}
+
+.display-img {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.display-info {
+  width: 90%;
+}
+
+.date {
+  font-size: 0.6em;
+  padding: 0.4rem 0;
+  color: rgb(36, 46, 76);
+}
