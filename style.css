@@ -42,6 +42,7 @@ body {
   margin: 0 0.3rem;
   padding: 0.6rem 1.4rem;
   background-color: rgb(246, 240, 232);
+  color: rgb(36, 46, 76);
   border: none;
   border-radius: 0.4rem;
   cursor: pointer;
@@ -166,14 +167,25 @@ body {
 
 /* Media Queries */
 @media screen and (max-width: 480px) {
+  body,
+  .header,
+  .description,
+  .content {
+    width: 100vw;
+  }
 
+  .nav-bar {
+    display: none;
+  }
 
+  .header,
   .interlude{
     margin: 0;
     padding: 0.2rem;
   }
   .grid-display {
     grid-template-columns: 1fr;
+    padding: 0.3rem 0.7rem;
   }
 
   .display {
