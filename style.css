@@ -104,6 +104,7 @@ body {
 }
 
 .interlude {
+  margin-bottom: 4rem;
   padding: 2rem;
 }
 
@@ -146,11 +147,18 @@ body {
 }
 
 .display-info {
-  width: 90%;
+  width: 95%;
+}
+
+.text-info {
+  font-size: 1em;
+  font-weight: 700;
+  line-height: 1.1em;
+  padding: 0.6rem 0;
 }
 
 .date {
   font-size: 0.6em;
-  padding: 0.4rem 0;
+  padding: 0.1rem 0;
   color: rgb(36, 46, 76);
 }
